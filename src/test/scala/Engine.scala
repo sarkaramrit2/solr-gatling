@@ -2,7 +2,7 @@ import io.gatling.app.Gatling
 import io.gatling.core.config.GatlingPropertiesBuilder
 
 object Engine extends App {
-
+1
   val props = new GatlingPropertiesBuilder()
     .resourcesDirectory(IDEPathHelper.resourcesDirectory.toString)
     .resultsDirectory(IDEPathHelper.resultsDirectory.toString)

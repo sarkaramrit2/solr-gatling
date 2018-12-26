@@ -18,7 +18,7 @@ class SolrQueryTraffic extends Simulation {
 
   object Query {
     // construct a feeder for our query params stored in the csv
-    val feeder = tsv(Config.queryFeederSource).random
+    val feeder = tsv(Config.queryFeederSource)//.random
 
     // each user sends loops queries
     val search = repeat(Config.numQueriesPerUser) {
@@ -41,7 +41,8 @@ class SolrQueryTraffic extends Simulation {
   val users = scenario("Users").exec(Query.search)
 
   setUp(
-    users.inject(constantUsersPerSec(Config.maxNumUsers) during (Config.totalTimeInMinutes minutes))//,
-      //rampUsersPerSec(Config.minNumUsers) to Config.maxNumUsers during (Config.totalTimeInMinutes minutes))
+    users.inject(
+      constantUsersPerSec(Config.maxNumUsers) during (Config.totalTimeInMinutes minutes),
+      rampUsersPerSec(Config.minNumUsers) to Config.maxNumUsers during (Config.totalTimeInMinutes minutes))
   ).protocols(httpConf)
 }

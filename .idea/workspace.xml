@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c74c9c3e-c1e5-4294-b047-3084fad45e95" name="Default" comment="" />
+    <list default="true" id="c74c9c3e-c1e5-4294-b047-3084fad45e95" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/src/test/scala/Engine.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/Engine.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/SolrQueryTraffic.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/SolrQueryTraffic.scala" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,12 +70,26 @@
     <session id="1988361872">
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="scala" value="2" />
+          <entry key="scala" value="51" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+          <entry key="Scala" value="51" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="1" />
+          <entry key="scala" value="2" />
+          <entry key="tsv" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="1" />
           <entry key="Scala" value="2" />
+          <entry key="TSV" value="1" />
         </counts>
       </usages-collector>
     </session>
@@ -88,11 +105,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/scala/Engine.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="45">
+              <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -100,18 +117,46 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/scala/SolrQueryTraffic.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="8" column="57" selection-start-line="8" selection-start-column="57" selection-end-line="8" selection-end-column="57" />
+            <state relative-caret-position="302">
+              <caret line="44" column="6" selection-start-line="44" selection-start-column="6" selection-end-line="44" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/scala/Recorder.scala">
+        <entry file="file://$PROJECT_DIR$/src/test/scala/IndexQueryTraffic.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+            <state relative-caret-position="135">
+              <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/scala/SolrFacetQueryTraffic.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="24" column="24" lean-forward="true" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/io/gatling/gatling-core/3.0.1/gatling-core-3.0.1.jar!/io/gatling/core/structure/Execs.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="24" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/data/solrFacetQueries.tsv">
+          <provider selected="true" editor-type-id="csv-text-editor">
+            <state relative-caret-position="-74689" />
+          </provider>
+          <provider editor-type-id="csv-table-editor">
+            <state showInfoPanel="true" rowLines="3" />
           </provider>
         </entry>
       </file>
@@ -173,10 +218,12 @@
         <option value="$PROJECT_DIR$/src/test/scala/IDEPathHelper.scala" />
         <option value="$PROJECT_DIR$/src/test/resources/data/scriptFile.scala" />
         <option value="$PROJECT_DIR$/src/test/resources/data/solrQueries.csv" />
-        <option value="$PROJECT_DIR$/src/test/scala/SolrQueryTraffic.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/IDEPathHelper.scala" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/build.sbt" />
+        <option value="$PROJECT_DIR$/src/test/scala/SolrQueryTraffic.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/IndexQueryTraffic.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/SolrFacetQueryTraffic.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/Engine.scala" />
       </list>
     </option>
@@ -213,11 +260,11 @@
   <component name="Play2ProjectSettings">
     <option name="EXCLUDE_MAKE_BEFORE_RUN" value="false" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1441" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1440" />
     <option name="y" value="23" />
-    <option name="width" value="1919" />
-    <option name="height" value="994" />
+    <option name="width" value="1920" />
+    <option name="height" value="1000" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -248,6 +295,34 @@
               <item name="solr-gatling" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="solr-gatling" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solr-gatling" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="solr-gatling" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solr-gatling" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="solr-gatling" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solr-gatling" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="solr-gatling" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solr-gatling" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -260,7 +335,7 @@
     <property name="SearchEverywhereHistoryKey" value="build.properties&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545768820453" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545821038492" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -269,13 +344,16 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources/data" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main" />
       <recent name="$PROJECT_DIR$/src/test" />
       <recent name="$PROJECT_DIR$/src/main/scala" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/test/resources/data" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -442,9 +520,10 @@
     <option name="totallyTimeSpent" value="17253000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1441" y="23" width="1919" height="994" extended-state="0" />
+    <frame x="1441" y="23" width="1919" height="1057" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13532232" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13532232" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -453,7 +532,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.48466256" visible="true" weight="0.5176337" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48466256" visible="true" weight="0.48301485" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -461,7 +540,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49804798" weight="0.32901832" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5153374" side_tool="true" weight="0.32901832" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.48689348" weight="0.46643913" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.48689348" weight="0.46602973" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -535,13 +614,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/data/solrQueries.csv" />
     <entry file="file://$PROJECT_DIR$/src/test/resources/data/solrFacetQueries.csv" />
-    <entry file="file://$PROJECT_DIR$/src/test/scala/SolrQueryTraffic.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="8" column="57" selection-start-line="8" selection-start-column="57" selection-end-line="8" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/resources/data/solrQueries.tsv" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/SolrQueryTraffic.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml" />
@@ -557,20 +629,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/IDEPathHelper.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/Engine.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/solr.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -583,6 +641,56 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
           <caret line="88" column="24" selection-start-line="88" selection-start-column="24" selection-end-line="88" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/IDEPathHelper.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/data/solrFacetQueries.tsv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="-74689" />
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/SolrQueryTraffic.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="44" column="6" selection-start-line="44" selection-start-column="6" selection-end-line="44" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/IndexQueryTraffic.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/Engine.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/gatling/gatling-core/3.0.1/gatling-core-3.0.1.jar!/io/gatling/core/structure/Execs.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/SolrFacetQueryTraffic.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="24" column="24" lean-forward="true" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="38" />
         </state>
       </provider>
     </entry>

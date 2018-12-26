@@ -1,0 +1,10 @@
+{
+  "simulation": "SolrQueryTraffic",
+  "simulationId": "solrquerytraffic",
+  "start": 1545814722929,
+  "description": "",
+  "scenarios": ["Users"],
+  "assertions": [
+
+  ]
+}
