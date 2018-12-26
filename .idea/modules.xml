@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/solr.iml" filepath="$PROJECT_DIR$/solr.iml" />
+      <module fileurl="file://$PROJECT_DIR$/solr-gatling.iml" filepath="$PROJECT_DIR$/solr-gatling.iml" />
     </modules>
   </component>
 </project>

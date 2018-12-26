@@ -1,0 +1,4 @@
+WikiIndexer.class
+QueryCreator.class
+FacetQueryCreator.class
+QuerySampler.class

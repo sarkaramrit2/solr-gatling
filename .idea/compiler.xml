@@ -7,12 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="fusion-gatling" />
-        <module name="solr" />
+        <module name="solr-gatling" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="fusion-gatling" target="1.8" />
-      <module name="solr" target="1.8" />
+      <module name="solr-gatling" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
