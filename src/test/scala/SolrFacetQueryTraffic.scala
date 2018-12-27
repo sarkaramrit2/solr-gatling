@@ -18,7 +18,7 @@ class SolrFacetQueryTraffic extends Simulation {
 
   object Query {
     // construct a feeder for our query params stored in the csv
-    val feeder = tsv(Config.queryFeederSource)//.random
+    val feeder = tsv(Config.queryFeederSource).circular
 
     // each user sends loops queries
     val search = repeat(Config.numQueriesPerUser) {
